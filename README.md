@@ -1,2 +1,2 @@
-# cufflinks-common-libraries
+# Cufflinks common libraries
 Common libraries for cufflinks project
