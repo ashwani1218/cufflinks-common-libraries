@@ -1,8 +1,8 @@
-package com.cufflinks.commonlibraries.util;
+package com.cufflinks.common.util;
 
 
-import com.cufflinks.commonlibraries.constants.JWTConstants;
-import com.cufflinks.commonlibraries.dto.entity.Team;
+import com.cufflinks.common.constants.JWTConstants;
+import com.cufflinks.common.dto.entity.Team;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.JwtException;
 import io.jsonwebtoken.Jwts;
@@ -21,20 +21,13 @@ import java.util.Map;
 public class JWTUtil {
 
 	private static final Logger LOGGER = LoggerFactory.getLogger(JWTUtil.class);
-	
 
-//	@Value("${jjwt.expiration}")
 	private String expirationTime = "28800";
 	
 
 	byte[] secretKey = Base64.getDecoder().decode(JWTConstants.SECRET);
 	
 	private Key key = Keys.hmacShaKeyFor(secretKey);;
-	
-//	@PostConstruct
-//	public void init(){
-//		this.key = Keys.hmacShaKeyFor(secretKey);
-//	}
 
 	public Claims getAllClaimsFromToken(String token) {
 		return Jwts.parserBuilder().setSigningKey(key).build().parseClaimsJws(token).getBody();

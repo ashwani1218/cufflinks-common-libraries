@@ -1,12 +1,12 @@
 /**
  * 
  */
-package com.cufflinks.commonlibraries.dto.model.response;
+package com.cufflinks.common.dto.model.response;
 
 
-import com.cufflinks.commonlibraries.dto.entity.Team;
-import com.cufflinks.commonlibraries.dto.model.BaseResponse;
-import com.cufflinks.commonlibraries.dto.model.GenericResponse;
+import com.cufflinks.common.dto.entity.Team;
+import com.cufflinks.common.dto.model.BaseResponse;
+import com.cufflinks.common.dto.model.GenericResponse;
 
 /**
  *

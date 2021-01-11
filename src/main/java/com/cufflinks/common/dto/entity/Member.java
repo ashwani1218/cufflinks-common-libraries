@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.cufflinks.commonlibraries.dto.entity;
+package com.cufflinks.common.dto.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
@@ -123,7 +123,6 @@ public class Member {
 
 	public Member() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 
 	public Member(String name, String skill, List<Team> teams) {

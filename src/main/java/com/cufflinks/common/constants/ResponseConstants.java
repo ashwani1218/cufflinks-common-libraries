@@ -1,4 +1,4 @@
-package com.cufflinks.commonlibraries.constants;
+package com.cufflinks.common.constants;
 
 public class ResponseConstants {
 

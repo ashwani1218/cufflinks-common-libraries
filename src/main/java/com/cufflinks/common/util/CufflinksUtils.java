@@ -1,4 +1,4 @@
-package com.cufflinks.commonlibraries.util;
+package com.cufflinks.common.util;
 
 import java.util.Collection;
 import java.util.Date;
@@ -6,10 +6,11 @@ import java.util.Map;
 
 public class CufflinksUtils {
 
+	private CufflinksUtils(){
+	}
+
 	public static final boolean isNullOrZero(final Long o) {
-		if(o==null) {
-			return true;
-		}
+		if(o==null) return true;
 		else if(o==0) {
 			return true;
 		}

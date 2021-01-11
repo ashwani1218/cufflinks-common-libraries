@@ -1,8 +1,8 @@
-package com.cufflinks.commonlibraries.dto.model;
+package com.cufflinks.common.dto.model;
 
 import java.io.Serializable;
 
-import com.cufflinks.commonlibraries.constants.JsonConstants;
+import com.cufflinks.common.constants.JsonConstants;
 import org.springframework.http.HttpStatus;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;

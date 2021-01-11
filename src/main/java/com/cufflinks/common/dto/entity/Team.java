@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.cufflinks.commonlibraries.dto.entity;
+package com.cufflinks.common.dto.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
@@ -12,8 +12,7 @@ import java.util.Set;
 /**
  *
  * @author Ashwani Pandey
- *
- *         createdAt 30 Jun, 2020
+ * createdAt 30 Jun, 2020
  *
  */
 @Entity

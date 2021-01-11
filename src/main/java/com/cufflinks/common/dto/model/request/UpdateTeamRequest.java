@@ -1,10 +1,10 @@
 /**
  * 
  */
-package com.cufflinks.commonlibraries.dto.model.request;
+package com.cufflinks.common.dto.model.request;
 
-import com.cufflinks.commonlibraries.dto.entity.Team;
-import com.cufflinks.commonlibraries.dto.model.GenericRequest;
+import com.cufflinks.common.dto.entity.Team;
+import com.cufflinks.common.dto.model.GenericRequest;
 
 /**
  *

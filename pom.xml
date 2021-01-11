@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.cufflinks</groupId>
 	<artifactId>common-libraries</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.2</version>
 	<name>common-libraries</name>
 	<description>common libraries for cufflinks project</description>
 
@@ -51,11 +51,6 @@
 			<artifactId>spring-boot-starter-validation</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-			<scope>runtime</scope>
-		</dependency>
-		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
@@ -77,14 +72,4 @@
 			<version>5.2.7.RELEASE</version>
 		</dependency>
 	</dependencies>
-
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
-	</build>
-
 </project>
