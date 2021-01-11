@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: cufflink-common-library
+  datasource:
+    url: jdbc:mysql://localhost:3306/cufflinks
+    username: root
+    password: Ashwani@1
+  jpa:
+    hibernate:
+      ddl-auto: update
