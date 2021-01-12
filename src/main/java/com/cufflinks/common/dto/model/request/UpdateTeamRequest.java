@@ -34,6 +34,4 @@ public class UpdateTeamRequest  implements GenericRequest {
 	public void setToken(String token) {
 		this.token = token;
 	}
-	
-	
 }

@@ -1,4 +1,4 @@
-name: Master Branch
+name: cufflinks-common-libraries
 on:
   push:
     branches:

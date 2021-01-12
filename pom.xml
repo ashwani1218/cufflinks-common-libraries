@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.cufflinks</groupId>
 	<artifactId>common-libraries</artifactId>
-	<version>0.0.2</version>
+	<version>0.0.3</version>
 	<name>common-libraries</name>
 	<description>common libraries for cufflinks project</description>
 

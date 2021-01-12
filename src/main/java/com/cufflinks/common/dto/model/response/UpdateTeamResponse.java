@@ -15,7 +15,6 @@ import com.cufflinks.common.dto.model.GenericResponse;
  *
 */
 public class UpdateTeamResponse extends BaseResponse implements GenericResponse {
-
 	
 	/**
 	 * 
